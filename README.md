@@ -67,5 +67,6 @@ model, we used the code from ``, and also Pix2PixHD commit ``
 [4] High-resolution image synthesis and semantic manipulation with conditional gans. Ting-Chun Wang, Ming-Yu Liu, Jun-Yan Zhu, Andrew Tao, Jan Kautz, and Bryan Catanzaro.
 
 [5] The cityscapes dataset for semantic urban scene understanding. Marius Cordts, Mohamed Omran, Sebastian Ramos, Timo Rehfeld, Markus Enzweiler, Rodrigo Benenson, Uwe Franke, Stefan Roth, and Bernt Schiele
+
 [6] Pixel-wise Anomaly Detection for Complex Outdoors Scenes.Taken from https://github.com/giandbt/synboost.git. 
 It is same as this github repository with very minor changes.
