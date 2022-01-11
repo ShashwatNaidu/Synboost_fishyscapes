@@ -63,3 +63,6 @@ Xihui Liu, Guojun Yin, Jing Shao, Xiaogang Wang and Hongsheng Li.
 
 [2] Improving Semantic Segmentation via Video Propagation and Label Relaxation
 Yi Zhu1, Karan Sapra, Fitsum A. Reda, Kevin J. Shih, Shawn Newsam, Andrew Tao, Bryan Catanzaro.
+
+[3] Pixel-wise Anomaly Detection for Complex Outdoors Scenes.Taken from https://github.com/giandbt/synboost.git. 
+It is same as this github repository with very minor changes.
