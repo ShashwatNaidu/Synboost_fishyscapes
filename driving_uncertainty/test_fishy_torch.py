@@ -129,7 +129,7 @@ class AnomalyDetector():
         
         # do ensemble if necessary
         if self.ensemble:
-            diss_pred = diss_pred[:, 1, :, :] * 0.75 + entropy_tensor.cpu().numpy() * 0.25
+            diss_pred = diss_pred[:, 1, :, :] * 0.25 + entropy_tensor.cpu().numpy() * 0.75
         else:
             diss_pred = diss_pred[:, 1, :, :]
         diss_pred = np.array(Image.fromarray(diss_pred.squeeze()).resize((image_og_w, image_og_h)))
