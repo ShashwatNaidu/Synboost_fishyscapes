@@ -188,7 +188,7 @@ class AnomalyDetector():
         model_path = os.path.join(save_folder,
                                   '%s_net_%s.pth' % (config_diss['which_epoch'], config_diss['experiment_name']))
         model_weights = torch.load(model_path)
-        self.diss_model.load_state_dict(model_weights)
+        self.diss_model.load_state_dict(model_weights["state_dict"],strict = False)
         self.diss_model.eval()
         print('Dissimilarity Net Restored')
         
